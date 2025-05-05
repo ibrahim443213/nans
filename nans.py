@@ -17,7 +17,7 @@ from prompt_toolkit.layout.menus import CompletionsMenu
 from prompt_toolkit.application.current import get_app
 
 # --- CONFIGURATION ---
-GITHUB_RAW_URL = ""  # CHANGE THIS!
+GITHUB_RAW_URL = "https://github.com/ibrahim443213/nans/blob/main/nans.py"  # CHANGE THIS!
 
 # --- FILE SETUP ---
 filename = sys.argv[1] if len(sys.argv) > 1 else 'hello.txt'
